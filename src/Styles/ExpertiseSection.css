@@ -1,27 +1,46 @@
 .expertise {
   text-align: center;
-  max-width: 700px;
-  padding: 50px 20px;
-  margin: 100px auto 0; /* Øker marginen øverst for å flytte seksjonen lenger ned */
+  max-width: 800px; /* Øker max-width for en bedre layout */
+  padding: 40px 20px; /* Redusert padding for en mer kompakt seksjon */
+  margin: 100px auto 0; /* Beholder marginen øverst for å flytte seksjonen lenger ned */
   color: #fffcfc;
   border-radius: 15px;
   border: 2px solid #ffcc00;
   box-shadow: 0 4px 10px rgba(255, 201, 201, 0.1);
   transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
-  margin-top: 800px;
+  margin-top: 800px; /* Holder seksjonen langt ned på siden som ønsket */
+}
+
+.expertise h2 {
+  font-size: 2.5rem; /* Større overskrift for bedre synlighet */
+  margin-bottom: 20px;
+  color: #ffcc00; /* Konsistent farge for overskrifter */
+}
+
+.about-box {
+  margin-top: 30px;
+  font-size: 1.1rem; /* Mindre fontstørrelse for teksttunge seksjoner */
+  color: #fffefe;
+  line-height: 1.6; /* Økt linjeavstand for bedre lesbarhet */
+}
+
+.about-box h2 {
+  font-size: 2rem; /* Litt større for bedre fokus */
+  margin-bottom: 10px;
+  color: #ffcc00; /* Konsistent farge for overskrifter */
 }
 
 .expertise-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Økt min-bredde for kortene */
   gap: 20px;
-  margin-top: 50px;
-  place-items: center; /* Sentrer innholdet i grid */
+  margin-top: 40px;
+  place-items: center;
 }
 
 .expertise-box {
   background: #000000;
-  padding: 20px;
+  padding: 15px; /* Mindre padding for å gjøre boksen mer kompakt */
   border-radius: 15px;
   border: 2px solid #ffcc00;
   box-shadow: 0 4px 10px rgba(255, 201, 201, 0.1);
@@ -35,14 +54,14 @@
 
 .expertise-card {
   background: #ffffff;
-  padding: 20px;
+  padding: 15px; /* Mindre padding for å gjøre kortene mer kompakte */
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(255, 201, 201, 0.1);
   transition: transform 0.3s ease-in-out;
   z-index: 4;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Sentrerer innholdet i kortene */
+  align-items: center;
   justify-content: center;
 }
 
@@ -53,12 +72,14 @@
 .expertise-card h3 {
   font-size: 1.2rem;
   margin-bottom: 10px;
+  color: #ffcc00; /* Konsistent farge for overskrifter */
 }
 
 .expertise-card p {
   color: #fffefe;
   font-size: 1rem;
 }
+
 
 
   

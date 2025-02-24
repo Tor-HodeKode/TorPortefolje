@@ -1,5 +1,5 @@
 body {
-    background-image: url('Background.jpg');
+    background-image: url('/background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,6 +9,7 @@ body {
     height: 100vh;
     font-family: Arial, sans-serif;
     overflow-x: hidden;
+    background-color: #2c2626;
   }
   
   .background-overlay {
@@ -129,7 +130,6 @@ body {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #2c2626;
     padding: 60px 0;
     margin-top: 790px;
     text-align: center;

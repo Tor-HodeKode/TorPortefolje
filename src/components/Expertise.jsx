@@ -5,33 +5,28 @@ const ExpertiseSection = () => {
   return (
     <section className="expertise" id="expertise">
       <h2>Ekspertise</h2>
-      <p>xDD</p>
+      <p>Her er en kort beskrivelse av min bakgrunn og ferdigheter.</p>
       
-      {/* Oppdatert className til about-box */}
       <div className="about-box">
         <h2>Tor-Magnus Slatlem</h2>
         <p>
-        Hei! Jeg heter Tor-Magnus Slatlem, er 24 år gammel, og deltar for tiden på et kurs der jeg lærer grunnleggende og avansert koding. Fokusområdene inkluderer HTML, CSS, JavaScript, React og webdesign med Figma .  . 
+          Hei! Jeg er 24 år gammel og lærer koding gjennom et kurs. Jeg jobber med HTML, CSS, JavaScript, React og webdesign i Figma.
         </p>
-        <section>
-        <p> 
-        Jeg er en strukturert og nysgjerrig person som trives med å løse problemer og lære nye ting. Jeg har erfaring med feilsøking og problemløsning, spesielt relatert til kompatibilitetsproblemer i programmer. Dette har gitt meg innsikt i hvordan jeg kan identifisere utfordringer og finne løsninger på en effektiv måte. 
-        </p>
-        </section>
+        <p>Jeg er strukturert og nysgjerrig, og jeg trives med å løse problemer og lære nye ting. Jeg har erfaring med feilsøking, spesielt når det gjelder kompatibilitetsproblemer i programmer.</p>
       </div>
 
       <div className="expertise-grid">
         <div className="expertise-box">
           <h3>Frontend</h3>
-          <p>Brukt React, JavaScript, HTML og CSS for å skape brukervennlige nettsider</p>
+          <p>Brukt React, JavaScript, HTML og CSS for å skape brukervennlige nettsider.</p>
         </div>
         <div className="expertise-box">
           <h3>Backend</h3>
-          <p>Kjent med Node.js for backend development</p>
+          <p>Kjent med Node.js for backend utvikling.</p>
         </div>
         <div className="expertise-box">
           <h3>Figma & UI/UX</h3>
-          <p>Kjent med wireframes og UI/UX design ved bruk av Figma</p>
+          <p>Erfaring med wireframes og UI/UX design ved bruk av Figma.</p>
         </div>
       </div>
     </section>
@@ -39,3 +34,4 @@ const ExpertiseSection = () => {
 };
 
 export default ExpertiseSection;
+
